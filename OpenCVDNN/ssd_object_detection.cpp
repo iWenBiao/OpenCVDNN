@@ -160,7 +160,7 @@ std::vector<String> readClassNames()
 
 
 // cap124，使用MobileNetSSD_deploy.caffemodel模型进行检测
-#if 0
+#if 1
 
 #include <opencv2/opencv.hpp>
 #include <opencv2/dnn.hpp>
@@ -421,7 +421,7 @@ int main(int argc, char** argv)
 
 
 // cap131，使用yolo-tiny3进行检测
-#if 1
+#if 0
 #include <opencv2/opencv.hpp>
 #include <opencv2/dnn.hpp>
 
